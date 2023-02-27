@@ -21,7 +21,12 @@ class UserService(object):
 		while (load.decode() != 'loaded'):
 			time.sleep(30)
 			load = cache.get('load_user')
-		return cache.get(key).decode()
+		print(key)
+		password = cache.get(key)
+		if password:
+			return cache.get(key).decode()
+		else:	
+			return None
 			
 
 	@staticmethod

@@ -2,6 +2,7 @@ import importlib
 
 from config import WorkConfig
 from api.home import HomeHandler, LoginHandler, RegisterHandler
+from api.session.book import SessionBookHandler
 
 
 def import_string(dotted_path):
@@ -42,6 +43,7 @@ class Router(metaclass=_RouterMetaclass):
 			handlers_map[r'/?'] = HomeHandler
 			handlers_map[r'/login/?'] = LoginHandler
 			handlers_map[r'/register/?'] = RegisterHandler
+			handlers_map[r'/session/book/?'] = SessionBookHandler
 		
 		#for handler in WorkConfig.INSTALL_HANDERLS:
 		#	import_string(handler)

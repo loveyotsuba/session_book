@@ -26,17 +26,18 @@ class DbInit(object):
 	def get_query(cls, db_session, queries, expressions, all):
 		print("开始查表")
 		if isinstance(queries, list):
-			queries = [hasattr(cls, field) for field in queries]
+			queries = [getattr(cls, field) for field in queries]
 			query = db_session.query(*queries)
 		else:	
 			query = db_session.query(queries)
 		if expressions is None:
 			return query
-		query = query.filter(cls.get_expression(expressions))
+		for expression in expressions:
+			query = query.filter(cls.get_expression(expression))
 		if all:
-			return query.all().to_dict()
+			return query.all()
 		else:
-			return query.first().to_dict()
+			return query.first()
 
 	@classmethod		
 	def get_expression(cls, expressions, is_join=None):
@@ -51,6 +52,10 @@ class DbInit(object):
 				val = expressions[index + 2]
 				if expressions[index] == '==':
 					stack.append(field == val)
+				elif expressions[index] == '>':
+					stack.append(field > val)
+				elif expressions[index] == '<':
+					stack.append(field < val)
 				index += 3
 		if is_join is None:
 			return stack[0]
@@ -73,3 +78,13 @@ class User(DbBase, DbInit):
 	password = Column(String(128))
 	phone = Column(String(64), unique=True, index=True)
 
+class Session(DbBase, DbInit):
+	__tablename__ = 'session'
+	id = Column(Integer, primary_key=True)
+	session_id = Column(String(64), unique=True, index=True)
+	applicant = Column(String(64))
+	num = Column(Integer)
+	start_time = Column(DateTime)
+	end_time = Column(DateTime)
+	status = Column(Integer)
+	

@@ -10,6 +10,7 @@ from celery import Celery
 
 from config import WorkConfig
 from model.db_models import db
+from utils.bloomfilter import BloomFilter
 
 #CELERY_ACCEPT_CONTENT = ['pickle']
 #CELERY_TASK_SERIALIZER = 'pickle'
@@ -22,10 +23,15 @@ for cron in WorkConfig.CELERY_CONFIG['include']:
 	if hasattr(module, 'beat_schedule'):
 		beat_schedule.update(getattr(module, 'beat_schedule'))
 
+bloom_redis = redis.StrictRedis(host='localhost', port=6379, db=2)
+bf = BloomFilter(conn=bloom_redis)
+
 app.config_from_object(WorkConfig.CELERY_CONFIG)
 app.conf.project_conf = WorkConfig
 app.conf.beat_schedule = beat_schedule
 app.conf.update(
 	mysql_database = db,
-	cache_redis = redis.StrictRedis(host='localhost', port=6379, db=1)
+	cache_redis = redis.StrictRedis(host='localhost', port=6379, db=1),
+	bloom_filter = bf
 )
+

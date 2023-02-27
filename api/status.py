@@ -7,6 +7,10 @@ class Code:
 		USER_INVALID = 110001
 		TOKEN_INVALID = 110003
 		USER_IS_EXIST = 110004
+	
+	class Session:
+		PRIOD_EXIST = 12001
+	
 
 class Message:
 	class System:
@@ -17,3 +21,6 @@ class Message:
 		USER_INVALID = "用户名，手机号，或者密码错误!"
 		TOKEN_INVALID = "Token无效!"	
 		USER_IS_EXIST = "该用户已存在，请直接登录!"
+	
+	class Session:
+		PRIOD_EXIST = "该时间段已预约，请重新选择时间段"

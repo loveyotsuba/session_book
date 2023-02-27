@@ -64,6 +64,7 @@ class WorkConfig(object):
 		'accept_content': ['json'],
 		'include': [
 			'run_celery.tasks.user',
+			'run_celery.tasks.session',
 		]
 	}
 
