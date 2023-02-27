@@ -1,0 +1,378 @@
+2023-02-24 10:13:19,208 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f39ad2db1e0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 10:18:48,737 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f5c96bf81e0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 10:20:14,978 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f9ef35111e0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:12:38,156 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f93aa4fd0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:13:21,285 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fd411224158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:13:58,590 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fa8eb987158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:15:23,210 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fe99f908158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:17:39,754 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7efdd581c1e0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:22:40,210 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f1c45b9c158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:23:17,423 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f149e858158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:23:28,716 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fa37e850158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:25:49,438 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7efdef054158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:26:46,806 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fb59d0e5158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:28:12,597 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fbef02c5158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 11:28:51,859 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fe3227bc0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 13:10:30,746 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f7033f2b0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 13:20:45,444 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f36d39ab0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 13:28:15,212 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f36d39ab0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 13:30:06,622 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fc0878250d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 13:30:42,270 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f464bb590d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 13:58:32,493 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fc1d80b00d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 13:58:54,449 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f302d5570d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:00:01,123 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f367ce150d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:02:02,135 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fc8672f90d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:02:26,651 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f71dbba10d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:04:27,372 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fd31505b0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:05:15,429 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fdb52b160d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:06:30,192 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f6d1ca180d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:07:35,809 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fdad67730d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:08:48,151 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f009b4d70d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:09:23,387 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fdf356fa0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:10:26,305 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fa0f17cf0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:10:43,518 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f1900f340d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:13:55,466 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f65222dc0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:14:35,408 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f70f0d6a0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:21:17,148 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f3f1cdf60d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:21:57,648 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f9f69f880d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:22:28,650 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f8beb8f50d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:24:12,087 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fbcc1cd90d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:24:55,761 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f972b3ea0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:25:23,822 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f46904ac0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:25:42,976 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f36486e60d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:29:45,211 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fcedbb180d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:31:06,398 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7efcd65ae0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:31:23,545 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fc268d110d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:33:04,577 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f6f35874158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:34:19,455 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f6f35874158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:35:04,493 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f6f35874158>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:36:35,790 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7fcd47fdb0d0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:37:29,015 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f0a8e95a2f0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:37:57,915 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f18e3eb22f0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:38:45,873 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f6d8f6132f0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:42:33,427 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f1d9f40f2f0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
+2023-02-24 14:42:51,108 - ERROR - __init__.py - _run_callback - 42 - Exception in callback functools.partial(<function HTTP1ServerConnection.start_serving.<locals>.<lambda> at 0x7f22d96992f0>, <Task finished coro=<HTTP1ServerConnection._server_request_loop() done, defined at /home/zi/session_book/lib64/python3.6/site-packages/tornado/http1connection.py:815> result=None>)
+Traceback (most recent call last):
+  File "/home/zi/session_book/base/__init__.py", line 38, in _run_callback
+    self.add_future(ret, self._discard_future_result)
+  File "/home/zi/session_book/lib64/python3.6/site-packages/tornado/ioloop.py", line 691, in add_future
+    assert is_future(future)
+AssertionError
