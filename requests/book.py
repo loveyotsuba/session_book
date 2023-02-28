@@ -11,8 +11,8 @@ def login():
 
 def book(cookie):
 	url = 'http://localhost:8000/session/book'
-	start_time = "2023-02-27 17:28:00"
-	end_time = "2023-02-27 17:28:30"
+	start_time = "2023-02-28 13:48:30"
+	end_time = "2023-02-28 13:48:40"
 	num = 3
 	param = {'start_time': start_time, 'end_time': end_time}
 	res = requests.post(url, params=param, cookies=cookie)

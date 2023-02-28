@@ -1,3 +1,4 @@
+from pytz import timezone, utc
 from datetime import datetime
 
 from api.base import BaseHandler, jwt_auth
@@ -26,6 +27,8 @@ class SessionBookHandler(BaseHandler):
 				'num': num,
 			}
 			SessionService.create(session)	
-			SessionService.end_session.apply_async((session_id, ), eta=datetime.strptime(end_time, "%Y-%m-%d %H:%M:%S"))
+			eta = datetime.strptime(end_time, "%Y-%m-%d %H:%M:%S").astimezone(timezone('Asia/Shanghai'))
+			print(eta, eta.tzinfo)
+			SessionService.end_session.apply_async((session_id, ), eta=eta, utc=False)
 			self.write_success()
 			
